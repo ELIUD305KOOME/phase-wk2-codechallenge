@@ -1,0 +1,16 @@
+li{
+    border: rgb(234, 234, 19) 1px solid;
+    background-color: rgb(17, 22, 22);
+    padding: 20px;
+    color: aliceblue;
+    font-size: 100px;
+    margin: 25px;
+    width: 500px;
+    border-radius: 15px;
+    
+    }
+    h1{
+        margin: 25px 55px 15px;
+    font-size: 100px;
+        color: rgb(6, 80, 85);
+    }
