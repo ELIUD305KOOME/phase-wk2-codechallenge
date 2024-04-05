@@ -1,5 +1,18 @@
 // function that accepts two numbers and generates an array between them
-const generateArray = (start, end) =>
-  Array.from({
-    length: Math.floor(end - start) + 1
-  }, (_, i) => start + i);
+let start = parseInt(prompt("Enter the start number"));
+let end = parseInt(prompt("Enter the end number"));
+
+function generateArray(start, end) {
+    let result = [];
+    if (start <= end) {
+        for (let i = start; i <= end; i++) {
+            result.push(i);
+        }
+    } else {
+        for (let i = start; i >= end; i--) {
+            result.push(i);
+        }
+    }
+    return result;
+}
+console.log(generateArray(start, end));
